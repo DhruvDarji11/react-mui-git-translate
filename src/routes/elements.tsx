@@ -17,6 +17,6 @@ export const LoginPage = Loadable(
 export const SignUpPage = Loadable(
   lazy(() => import("../pages/SignUp/SignUpPage"))
 );
-export const ProjectsPage = Loadable(
-  lazy(() => import("../pages/Projects/ProjectPage"))
+export const ProductsPage = Loadable(
+  lazy(() => import("../pages/Products/ProductPage"))
 );

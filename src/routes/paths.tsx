@@ -4,13 +4,13 @@ function path(root: string, sublink: string): string {
 
 const ROOTS_AUTH = "/";
 const ROOT_MAIN = "/main";
-const ROOT_PROJECTS = "/projects";
+const ROOT_PRODUCTS = "/products";
 
 export const PATH_AUTH = {
   root: ROOTS_AUTH,
   main: ROOT_MAIN,
   login: path(ROOTS_AUTH, "login"),
-  projects: ROOT_PROJECTS,
+  products: ROOT_PRODUCTS,
 };
 export const PATH_DASHBOARD = {
   root: "/",

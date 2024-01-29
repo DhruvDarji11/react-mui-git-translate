@@ -1,10 +1,10 @@
 import React from "react";
 import MainLayout from "../../layouts/MainLayout";
-import ProjectBasePage from "../../components/organisms/Project/ProjectBasePage";
+import ProductBasePage from "../../components/organisms/Product/ProductBasePage";
 const ProjectPage = () => {
   return (
     <MainLayout>
-      <ProjectBasePage />
+      <ProductBasePage />
     </MainLayout>
   );
 };

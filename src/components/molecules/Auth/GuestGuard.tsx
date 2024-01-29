@@ -12,7 +12,7 @@ export default function GuestGuard({
 }) {
   const { user } = useSelector((state) => state.persist);
   if (user.IsLoggedIn) {
-    return <Navigate to={PATH_AUTH.projects} />;
+    return <Navigate to={PATH_AUTH.products} />;
   }
 
   return <>{children}</>;

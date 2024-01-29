@@ -2,9 +2,7 @@ import React from "react";
 import { Navigate, useRoutes } from "react-router-dom";
 import AuthGuard from "../components/molecules/Auth/AuthGuard";
 import GuestGuard from "../components/molecules/Auth/GuestGuard";
-// import LoginPage from "../pages/Login/LoginPage";
-// import ProjectPage from "../pages/Projects/ProjectPage";
-import { LoginPage, ProjectsPage, SignUpPage } from "./elements";
+import { LoginPage, ProductsPage, SignUpPage } from "./elements";
 
 export const Router: React.FC = () => {
   return useRoutes([
@@ -35,10 +33,10 @@ export const Router: React.FC = () => {
       ],
     },
     {
-      path: "/projects",
+      path: "/products",
       element: (
         <AuthGuard>
-          <ProjectsPage />
+          <ProductsPage />
         </AuthGuard>
       ),
     },
